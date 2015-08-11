@@ -4,7 +4,7 @@
   "description": "Extract data attributes from a DOM node.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "browserify test.js | tape-run"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,9 @@
   },
   "homepage": "https://github.com/rafaelrinaldi/data-attributes#readme",
   "devDependencies": {
-    "tape": "^4.0.3"
+    "browserify": "^11.0.1",
+    "inject-markup": "^1.0.1",
+    "tape": "^4.0.3",
+    "tape-run": "^1.1.0"
   }
 }
