@@ -1,0 +1,37 @@
+{
+  "name": "data-attributes",
+  "version": "1.0.0",
+  "description": "Extract data attributes from a DOM node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelrinaldi/data-attributes.git"
+  },
+  "keywords": [
+    "data",
+    "attribute",
+    "attributes",
+    "data-attribute",
+    "data-attributes",
+    "jquery",
+    "dom",
+    "html",
+    "markup",
+    "extract",
+    "parse",
+    "node",
+    "element"
+  ],
+  "author": "Rafael Rinaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelrinaldi/data-attributes/issues"
+  },
+  "homepage": "https://github.com/rafaelrinaldi/data-attributes#readme",
+  "devDependencies": {
+    "tape": "^4.0.3"
+  }
+}
