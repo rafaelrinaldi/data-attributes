@@ -28,7 +28,7 @@ $ npm install data-attributes --save
 var button = document.querySelector('button');
 var data = dataAttributes(button);
 
-data(button);
+data(button); // {loadingLabel: "Loading...", color: "#F06"}
 ```
 
 ### API
@@ -36,6 +36,12 @@ data(button);
 ### `dataAttributes(element)`
 
 Returns an object with all data attributes.
+
+## Motivation
+
+I needed something like [jQuery's `$.data()`](http://api.jquery.com/data) to simply retrieve data attributes from DOM elements. It was for a very old project that needs to support IE7.
+
+If you do not care about IE7, you can simply use [`dataset`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset).
 
 ## License
 
