@@ -1,0 +1,30 @@
+{
+  "name": "data-attributes",
+  "main": "index.js",
+  "version": "1.0.0",
+  "authors": [
+    "Rafael Rinaldi <rafael@rinaldi.io>"
+  ],
+  "description": "Extract data attributes from a DOM node.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "data",
+    "attribute",
+    "attributes",
+    "data-attribute",
+    "data-attributes",
+    "jquery",
+    "dom",
+    "html",
+    "markup",
+    "extract",
+    "parse",
+    "node",
+    "element"
+  ],
+  "license": "MIT"
+}
