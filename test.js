@@ -13,8 +13,6 @@ test('data attributes', function(t) {
     color: '#F06'
   };
 
-  console.log(JSON.stringify(actual));
-
-  t.deepLooseEqual(actual, expected, 'Expect a literal object with camelized keys');
+  t.deepLooseEqual(actual, expected, 'result should be a literal object with camelized keys');
   t.end();
 });
