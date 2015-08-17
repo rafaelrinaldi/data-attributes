@@ -6,36 +6,36 @@ Follows the [`data-*` spec](https://developer.mozilla.org/en-US/docs/Web/HTML/Gl
 
 ## Install
 
-Via [Bower](http://bower.io):
-
-```sh
-$ bower install data-attributes --save
-```
-
 Via [npm](http://npmjs.com):
 
 ```sh
 $ npm install data-attributes --save
 ```
 
+Via [Bower](http://bower.io):
+
+```sh
+$ bower install data-attributes --save
+```
+
 ## Usage
 
 ```html
 <button data-loading-label="Loading..." data-color="#F06">Click me</button>
-```
 
-```javascript
-var button = document.querySelector('button');
-var data = dataAttributes(button);
+<script>
+  var button = document.querySelector('button');
+  var data = dataAttributes(button);
 
-data(button); // {loadingLabel: "Loading...", color: "#F06"}
+  data(button); // {loadingLabel: "Loading...", color: "#F06"}
+</script>
 ```
 
 ### API
 
 ### `dataAttributes(element)`
 
-Returns an object with all data attributes.
+Returns an object containing all data attributes (with camel case keys) from a given DOM node.
 
 ## Motivation
 
